@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="InterfazDinamita.ParametrosMaestros"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:InterfazDinamita"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Nombre" VerticalAlignment="Top" Margin="10,65,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Codigo" VerticalAlignment="Top" Margin="10,101,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,137,0,0" Text="Titulo"/>
+        <TextBox x:Name="txtNombreM" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Insertar" VerticalAlignment="Top" Width="120" Margin="90,64,0,0"/>
+        <TextBox x:Name="txtCodigoM" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Insertar" VerticalAlignment="Top" Width="120" Margin="90,103,0,0"/>
+        <TextBox x:Name="txtTituloM" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Insertar" VerticalAlignment="Top" Width="120" Margin="90,136,0,0"/>
+        <TextBox x:Name="txtMateriaM" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Insertar" VerticalAlignment="Top" Width="120" Margin="90,164,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,171,0,0" Text="Materia"/>
+
+    </Grid>
+</UserControl>
